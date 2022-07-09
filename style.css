@@ -1,0 +1,59 @@
+body {
+    background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
+}
+
+p{
+    text-align: center;
+    font-size: 26px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.cage {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    line-height: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    transition: .3s;
+}
+.cage:hover {
+    background: #d7d7d7;
+    color: white;
+}
+
+.startButton{
+    text-decoration: none;
+    display: inline-block;
+    width: 280px;
+    height: 140px;
+    line-height: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    transition: .3s;
+}
+
+.startButton:hover {
+    background: #d7d7d7;
+    color: white;
+}
